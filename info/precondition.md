@@ -1,5 +1,3 @@
 **Precondition:**
 
-```
-0 <= |array| <= 20
-```
+`0 ≤ |array| ≤ 20`

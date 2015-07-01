@@ -1,4 +1,4 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeBase, ENV_NAME
 
 
 import settings_env
@@ -10,5 +10,5 @@ class Referee(RefereeBase):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
     DEFAULT_FUNCTION_NAME = "even_last"
     FUNCTION_NAMES = {
-        "javascript": "evenLast"
+        ENV_NAME.JS_NODE: "evenLast"
     }
